@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image-background{
+    padding: 30px;
+    background-image: url(https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-background .text:hover{
+    transform: scale(0.9);
+}
+.image-background .text-h5:hover{
+    transform: scale(0.9);
+}
+.card .card-body:hover{
+    text-decoration: none;
+}
+.btn{
+    padding: 5px 5px;
+   
+}
+.text-row{
+    padding: 10px 5px;
+    
+    background-color: rgb(242, 207, 207);
+    
+}
+.text-h1,.text-h2{
+    font-family: 'Roboto', sans-serif;
+}
+.text-highlight{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(145, 76, 76);
+}
+.card-img{
+    border: 2px solid rgb(17, 17, 17);
+}
+footer{
+    background-color: rgb(71, 191, 27);
+    
+}
+.text-box{
+    padding: 5px 5px 5px 5px;
+    /* border: 1px solid blue; */
+}
+.text{
+    color: white;
+    font-size: 20px;
+}
+form{
+    font-size: 25px;
+}
+/* .col{
+    width: 100%;
+    height: 50%;
+}
+.col img{
+    width: 100%;
+    height: 100%;
+} */
+   
+
+
+
+
+
+
+
+
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+   .card{
+     width: 100%;
+     margin-top: 15px;
+     /* height: 50%; */
+   }
+   /* .card img{
+    width: 100%;
+    height: 100%;
+   } */
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* .page-contant .card{
+        display: none;
+    } */
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
